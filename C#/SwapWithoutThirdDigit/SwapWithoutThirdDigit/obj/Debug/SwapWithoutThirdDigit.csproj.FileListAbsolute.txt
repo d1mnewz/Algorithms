@@ -1,0 +1,6 @@
+H:\OneDrive\Visual Studio 2012\Projects\Algorithms\C#\SwapWithoutThirdDigit\SwapWithoutThirdDigit\bin\Debug\SwapWithoutThirdDigit.exe.config
+H:\OneDrive\Visual Studio 2012\Projects\Algorithms\C#\SwapWithoutThirdDigit\SwapWithoutThirdDigit\bin\Debug\SwapWithoutThirdDigit.exe
+H:\OneDrive\Visual Studio 2012\Projects\Algorithms\C#\SwapWithoutThirdDigit\SwapWithoutThirdDigit\bin\Debug\SwapWithoutThirdDigit.pdb
+H:\OneDrive\Visual Studio 2012\Projects\Algorithms\C#\SwapWithoutThirdDigit\SwapWithoutThirdDigit\obj\Debug\SwapWithoutThirdDigit.csprojResolveAssemblyReference.cache
+H:\OneDrive\Visual Studio 2012\Projects\Algorithms\C#\SwapWithoutThirdDigit\SwapWithoutThirdDigit\obj\Debug\SwapWithoutThirdDigit.exe
+H:\OneDrive\Visual Studio 2012\Projects\Algorithms\C#\SwapWithoutThirdDigit\SwapWithoutThirdDigit\obj\Debug\SwapWithoutThirdDigit.pdb
