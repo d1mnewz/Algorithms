@@ -1,0 +1,11 @@
+function linearSearch(arr, a){
+	for (var i = 0; i <= arr.length; i++) {
+		if (arr[i] === a) {
+			return i;
+		}
+	}
+
+	console.log("no matched elements");
+}
+
+linearSearch([1,2,3,4,5,6,7], 8)
