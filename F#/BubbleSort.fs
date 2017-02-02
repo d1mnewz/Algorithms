@@ -1,11 +1,11 @@
 //using bubble sort in a functional language isn`t very efficient,
 // because the implementation has to reverse the list many times 
 //(and this can`t be really implemented very efficiently for immutable lists).
+
 let swap i j (arr : 'a []) =
     let tmp = arr.[i]
     arr.[i] <- arr.[j]
     arr.[j] <- tmp
-
 let bubbleSort arr =
     let rec loop (arr : 'a []) =
         let mutable swaps = 0
