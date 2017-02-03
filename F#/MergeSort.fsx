@@ -7,8 +7,8 @@ let getRandomIntArr count : int[] =
     arr;
 
 let split (arr : _ []) =
-    let n = arr.Length
-    arr.[0..n/2-1], arr.[n/2..n-1] // divide array into two parts
+    let n = arr.Length;
+    arr.[0..n/2-1], arr.[n/2..n-1]; // divide array into two parts
  
 let rec merge (l : 'a []) (r : 'a []) =
     let n = l.Length + r.Length
@@ -16,13 +16,13 @@ let rec merge (l : 'a []) (r : 'a []) =
     let mutable i, j = 0, 0
     for k = 0 to n-1 do
         if i >= l.Length 
-            then res.[k] <- r.[j]; j <- j + 1
-        elif
-            j >= r.Length then res.[k] <- l.[i]; i <- i + 1
-        elif
-            l.[i] < r.[j] then res.[k] <- l.[i]; i <- i + 1
+            then res.[k] <- r.[j]; j <- j + 1;
+        elif j >= r.Length 
+             then res.[k] <- l.[i]; i <- i + 1;
+        elif l.[i] < r.[j]
+             then res.[k] <- l.[i]; i <- i + 1;
         else
-            res.[k] <- r.[j]; j <- j + 1
+            res.[k] <- r.[j]; j <- j + 1;
 
     res
 
