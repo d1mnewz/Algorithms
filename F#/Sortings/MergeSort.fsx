@@ -33,6 +33,6 @@ let rec mergeSort = function
                 merge (mergeSort x) (mergeSort y); //the algorithm for merge sort is based on the idea
                 // that it’s easier to merge two already sorted lists than it is to deal with a single unsorted list
 let main() = 
-    printfn "%A" (mergeSort (getRandomIntArr 50))
+    printfn "%A" (mergeSort (getRandomIntArr 50));
 
 main();
